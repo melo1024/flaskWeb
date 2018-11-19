@@ -1,0 +1,477 @@
+body {
+	font-family: "微软雅黑" !important;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "微软雅黑" !important;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul.float-ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline;
+}
+
+ul.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex > li {
+    display: flex;
+    flex-direction: column;
+}
+
+.row.flex-col {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-col > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-dialog {
+	margin-top: 0px !important;
+}
+
+/* here you can put your own css to customize and override the theme */
+
+.page-header {
+	height: auto;
+}
+
+.page-content {
+	padding-top: 15px;
+}
+
+.widget-thumb .widget-thumb-body {
+	margin-top: 20px;
+}
+
+.widget-thumb .widget-thumb-body .widget-thumb-body-stat {
+	display: inline;
+}
+
+.widget-thumb .widget-thumb-body .widget-thumb-subtitle {
+	display: inline;
+}
+
+.multiselect-container.dropdown-menu {
+	min-width: 225px;
+}
+
+#SOHUCS #SOHU_MAIN .module-cmt-header .section-cbox-w .block-head-w .header-login {
+	border-radius: 42px !important;
+	color: #4398ed !important;
+}
+
+#SOHUCS #SOHU_MAIN .module-cmt-header .section-cbox-w .block-head-w .head-img-w img {
+	border-radius: 42px !important;
+}
+
+#SOHUCS #SOHU_MAIN .module-cmt-list .block-cont-gw .cont-head-gw .head-img-gw img {
+	border-radius: 42px !important;
+}
+
+.table.font12 thead tr th {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.table.font12 tbody tr td {
+    font-size: 14px;
+}
+
+.table.font12 tfoot tr th {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* 超出部分显示省略号 */
+.ellipsis {
+	overflow: hidden;
+	/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow: ellipsis;
+	/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+	white-space: nowrap;
+	/* 不换行 */
+}
+
+.page-header .page-header-top {
+    background-color: #fcdc33;
+}
+
+.page-header .page-header-top .page-logo {
+    width: 150px;
+}
+
+.page-header .page-header-top .top-menu {
+	margin: 6px 0 0;
+	float: left;
+}
+
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 0px 0 0;
+    margin-top: 5px;
+}
+
+.page-header .page-header-top .top-menu .navbar-nav {
+    background-color: #fcdc33;
+}
+
+.navbar-nav>li>a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fm-card-img {
+    width: 75px;
+    height: 75px;
+    position: relative;
+}
+
+.fm-card-img.mcard {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.fm-card-img.compare {
+    width: 175px;
+    height: 175px;
+    position: relative;
+}
+
+.fm-card-img.mcompare {
+    width: 75px;
+    height: 75px;
+    position: relative;
+}
+
+.fm-card-img .background {
+    position: absolute;
+    left: 0;
+}
+
+.fm-card-img .player-img {
+    position: absolute;
+    left: 0;
+}
+
+.compare-column {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.compare-column .compare-row:first-child {
+    border-top: 1px solid #eee;
+}
+
+.compare-column .compare-row:not(:last-child), .compare-column .header {
+    border-bottom: 1px solid #eee;
+}
+
+.compare-column .compare-row {
+    min-height: 36px;
+    line-height: 36px;
+    height: 36px;
+}
+
+.compare-column .compare-row .compare-label {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.compare-column .compare-row {
+    min-height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.compare-column.row-caption .compare-row div {
+	font-size: 11px;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; 
+}
+
+.playercard.card-large, .playercard.w200 {
+    height: 300px;
+    width: 200px;
+}
+.playercard {
+    background-repeat: no-repeat;
+}
+.playercard {
+    background-repeat: no-repeat;
+}
+
+.fm18.revision-gradient.legendary {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #000;
+	background: linear-gradient(135deg, #818181 0, #241f19 100%);
+	border: 1px solid #818181
+}
+
+.fm18 .playercard.card-large.legendary {
+	-webkit-filter: drop-shadow(0 0 6px #818181);
+	filter: drop-shadow(0 0 6px #818181)
+}
+
+.fm18.revision-gradient.master {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #000;
+	background: linear-gradient(135deg, #9973c4 0, #492064 100%);
+	border: 1px solid #9973c4
+}
+
+.fm18 .playercard.card-large.master {
+	-webkit-filter: drop-shadow(0 0 6px #9973c4);
+	filter: drop-shadow(0 0 6px #9973c4)
+}
+
+.fm18.revision-gradient.elite {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #000;
+	background: linear-gradient(135deg, #b00 0, #222 100%);
+	border: 1px solid #b00
+}
+
+.fm18 .playercard.card-large.elite {
+	-webkit-filter: drop-shadow(0 0 6px #b00);
+	filter: drop-shadow(0 0 6px #b00)
+}
+
+.fm18.revision-gradient.gold {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #000;
+	background: linear-gradient(135deg, #ffe38a 0, #bc9600 100%);
+	border: 1px solid #ffe38a
+}
+
+.fm18 .playercard.card-large.gold {
+	-webkit-filter: drop-shadow(0 0 6px #ffe38a);
+	filter: drop-shadow(0 0 6px #ffe38a)
+}
+
+.fm18.revision-gradient.silver {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #000;
+	background: linear-gradient(135deg, #d6dbde 0, #aeaeae 100%);
+	border: 1px solid #d6dbde
+}
+
+.fm18 .playercard.card-large.silver {
+	-webkit-filter: drop-shadow(0 0 6px #d6dbde);
+	filter: drop-shadow(0 0 6px #d6dbde)
+}
+
+.fm18.revision-gradient.bronze {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #000;
+	background: linear-gradient(135deg, #d2a97e 0, #8d553e 100%);
+	border: 1px solid #d2a97e
+}
+
+.fm18 .playercard.card-large.bronze {
+	-webkit-filter: drop-shadow(0 0 6px #d2a97e);
+	filter: drop-shadow(0 0 6px #d2a97e)
+}
+
+.fm18.player-info {
+	background: url(https://futhead.cursecdn.com/static/img/fm/18/backgrounds/player.png) no-repeat center;
+	background-size: cover;
+	color: silver
+}
+
+.fm18.player-info h4 {
+	color: #fff
+}
+
+.fm18.playercard {
+	font-weight: 500;
+	font-family: Knul, sans-serif;
+	color: #fff
+}
+
+.fm18.playercard.card-large {
+	background-position: center;
+	position: relative
+}
+
+.fm18.playercard.card-large .player-image {
+	position: relative;
+	top: 23px;
+	right: 28px;
+	-webkit-filter: drop-shadow(-1px 0 1px rgba(0, 0, 0, .4));
+	filter: drop-shadow(-1px 0 1px rgba(0, 0, 0, .4))
+}
+
+.fm18.playercard.card-large .score {
+	position: absolute;
+	top: 62px;
+	left: 20px;
+	font-size: 36px;
+	text-align: left;
+	text-shadow: -1px 1px 1px rgba(0, 0, 0, .4)
+}
+
+.fm18.playercard.card-large .position {
+	position: absolute;
+	top: 114px;
+	left: 23px;
+	font-size: 14px;
+	text-align: left
+}
+
+.fm18.playercard.card-large .name {
+	position: absolute;
+	width: 200px;
+	top: 192px;
+	font-size: 16px;
+	text-transform: uppercase
+}
+
+.fm18.playercard.card-large .club-image {
+	position: absolute;
+	top: 143px;
+	left: 17px;
+	text-align: left
+}
+
+.fm18.playercard.card-large .club-image img {
+	width: 44px;
+	height: 44px
+}
+
+.fm18.playercard.card-large .boost {
+	width: 144px;
+	height: 20px;
+	position: absolute;
+	top: 170px;
+	right: 17px;
+	padding: 2px 4px 0 0;
+	background-image: linear-gradient(to right, transparent 5px, rgba(0, 0, 0, .9) 96%, rgba(0, 0, 0, .4) 100%);
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 20px
+}
+
+.fm18.playercard.card-small {
+	height: 200px;
+	width: 172px;
+	background-size: contain;
+	position: relative
+}
+
+.fm18.playercard.card-small .player-image {
+	width: 172px;
+	height: 172px;
+	-webkit-filter: drop-shadow(-1px 0 1px rgba(0, 0, 0, .4));
+	filter: drop-shadow(-1px 0 1px rgba(0, 0, 0, .4))
+}
+
+.fm18.playercard.card-small .score {
+	position: absolute;
+	top: 26px;
+	left: 31px;
+	font-size: 21pt;
+	text-align: left;
+	text-shadow: -.5px .5px .5px rgba(0, 0, 0, .3)
+}
+
+.fm18.playercard.card-small .name {
+	width: 172px;
+	position: absolute;
+	top: 114px;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+}
+
+.fm18.playercard.card-small .position {
+	position: absolute;
+	top: 60px;
+	left: 33px;
+	font-size: 8pt;
+	text-align: left
+}
+
+.fm18.playercard.card-small .club-image {
+	position: absolute;
+	top: 81px;
+	left: 31px;
+	text-align: left
+}
+
+.fm18.playercard.card-small .club-image img {
+	width: 28px;
+	height: 28px
+}
+
+.fm18.playercard.card-small .boost {
+	width: 80px;
+	height: 18px;
+	position: absolute;
+	top: 94px;
+	right: 30px;
+	padding: 2px 4px 0 0;
+	background-image: linear-gradient(to right, transparent 5px, rgba(0, 0, 0, .9) 96%, rgba(0, 0, 0, .4) 100%);
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 9px;
+	line-height: 18px
+}
+
+.fm18.playercard.card-tiny {
+	height: 95px;
+	width: 70px;
+	background-size: contain;
+	position: relative
+}
+
+.fm18.playercard.card-tiny .player-image {
+	width: 70px;
+	height: 70px
+}
+
+.fm18.playercard.card-tiny .rating {
+	display: block;
+	width: 70px;
+	position: absolute;
+	top: 43px;
+	font-size: 10pt;
+	text-align: center
+}
+
+.fm .fut18 .player-header .flair {
+	background-size: 182px;
+	background-position: -50px 0;
+	height: 118px;
+	width: 116px
+}

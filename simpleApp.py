@@ -8,5 +8,9 @@ app = Flask(__name__)
 def fifa_mobile():
     return render_template("players.html")
 
+@app.route('/test')
+def test():
+    return 'ok'
+
 if __name__ == '__main__':
     app.run()

@@ -38,8 +38,8 @@
 	<div class="top-menu">
 		<ul class="nav navbar-nav pull-right">
 			<li>
-				<a>
-					<h5 class="bold">更多内容请关注订阅号：fifa_kyi</h5>
+				<a data-target="#formulaInfo" data-toggle="modal">
+					<h5 class="bold">“主要属性”计算公式</h5>
 				</a>
 			</li>
 		</ul>
@@ -57,28 +57,6 @@
 									<div class="page-content-inner">
 										<div class="mt-content-body">
 											<div id="functions" class="row widget-row"><div class="col-sm-12 hidden-xs">
-{#	<a class="btn btn-lg red-mint margin-bottom-10">#}
-{#		<i class="icon-cloud-download"></i> 主要属性计算公式（向下取整）#}
-{#	</a>#}
-{#	<a class="btn btn-lg blue-steel margin-bottom-10">#}
-{#		<i class="icon-users"></i> 速度=0.55*冲刺速度+0.45*加速#}
-{#	</a>#}
-{#	<a class="btn btn-lg blue-steel margin-bottom-10">#}
-{#		<i class="icon-users"></i> 射门=0.45*射门+0.2*射门力量+0.25*远射+0.1*任意球#}
-{#	</a>#}
-{#	<a class="btn btn-lg blue-steel margin-bottom-10">#}
-{#		<i class="icon-users"></i> 传球=0.45*短传+0.25*长传+0.3*传中#}
-{#	</a>#}
-{#	<a class="btn btn-lg blue-steel margin-bottom-10">#}
-{#		<i class="icon-users"></i> 灵活性=0.3*控球+0.55*盘带+0.15*反应#}
-{#	</a>#}
-{#	<a class="btn btn-lg blue-steel margin-bottom-10">#}
-{#		<i class="icon-users"></i> 防守=0.35*铲球+0.5*人盯人+0.15*头球#}
-{#    </a>#}
-{#	<a class="btn btn-lg blue-steel margin-bottom-10">#}
-{#		<i class="icon-users"></i> 体格=0.6*力量+0.4*进攻性#}
-{#	</a>#}
-
 </div>
 </div>
 											<div class="row">
@@ -237,11 +215,8 @@
 				<div class="page-wrapper-bottom">
 					<div class="page-footer">
 						<div class="container">
-                            <a>&nbsp;&nbsp;#主要属性计算公式(向下取整)#【速度】=0.55*冲刺速度+0.45*加速 【射门】=0.45*射门+0.2*射门力量+0.25*远射+0.1*任意球【传球】=0.45*短传+0.25*长传+0.3*传中</a>
+                            <a>更多内容请关注订阅号：fifa_kyi</a>
 						</div>
-                        <div class="container">
-                            <a>【灵活性】=0.3*控球+0.55*盘带+0.15*反应【防守】=0.35*铲球+0.5*人盯人+0.15*头球【体格】=0.6*力量+0.4*进攻性</a>
-                        </div>
 					</div>
 					<div class="scroll-to-top">
 						<i class="icon-arrow-up"></i>
@@ -249,6 +224,24 @@
 				</div>
 			</div>
 		</div>
+        <div id="formulaInfo" class="modal-dialog bs-modal-lg bg-white" tabindex="-1" data-replace="true" style="display: none; margin-top: 0px !important;">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+				<h4 class="modal-title">主要属性计算公式（向下取整）</h4>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-bottom-20">
+                        <div class="row"><label class="formula-label">步频=0.55*冲刺速度+0.45*加速</label></div>
+                        <div class="row"><label class="formula-label">射门=0.45*射门+0.2*射门力量+0.25*远射+0.1*任意球</label></div>
+                        <div class="row"><label class="formula-label">传球=0.45*短传+0.25*长传+0.3*传中</label></div>
+                        <div class="row"><label class="formula-label">灵活性=0.3*控球+0.55*盘带+0.15*反应</label></div>
+                        <div class="row"><label class="formula-label">防守=0.35*铲球+0.5*人盯人+0.15*头球</label></div>
+                        <div class="row"><label class="formula-label">体格=0.6*力量+0.4*进攻性</label></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<div id="playerSelect" class="modal-dialog bs-modal-lg bg-white" tabindex="-1" data-replace="true" style="display: none; margin-top: 0px !important;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>

@@ -475,3 +475,12 @@ ul.flex {
 	height: 118px;
 	width: 116px
 }
+
+.formula-label{
+	padding-left: 20px;
+	width:91.66667%;
+	font-size: 18px;
+	font-family: 'Ubuntu';
+    font-style: normal;
+  	font-weight: normal;
+}
